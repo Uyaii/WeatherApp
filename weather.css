@@ -41,9 +41,12 @@ img {
 }
 .search input:active,
 .search input:focus{
-outline: 2px solid blue;
+outline: 2px solid rgb(83, 83, 231);
 }
-
+hr{
+  margin: 1rem;
+  color: #8064e9;
+}
 .search button {
   background-color: #8064e9;
   padding: 0.5rem;

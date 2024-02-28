@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(197, 187, 187);
+}
+.main-container {
+  background-color: white;
+  width: 650px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+header a {
+  text-decoration: none;
+  color: #8064e9;
+  cursor: pointer;
+}
+img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.search {
+  margin: 0.5rem;
+}
+.search input {
+  width: 70%;
+  height: 20px;
+  padding: 0.9rem;
+  border-radius: 5px;
+  background-color: #f9f7fe;
+  color: black;
+  border: none;
+}
+
+.search button {
+  background-color: #8064e9;
+  padding: 0.5rem;
+  border: 2px solid #8064e9;
+  color: white;
+  width: 120px;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-container h2 {
+  font-size: 45px;
+}
+.info-container h2:nth-child(2) {
+  font-size: 85px;
+  margin: auto 0;
+}
+.info p {
+  color: gray;
+}
+.main-temp {
+  font-size: 100px;
+}
+.numbers {
+  color: red;
+}
+
+.days {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5rem;
+}
+
+.day {
+  font-size: 20px;
+  color: gray;
+}
+.emoji {
+  font-size: 40px;
+}
+.first-temp {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.second-temp {
+  color: rgba(255, 0, 0, 0.404);
+}
+
+footer {
+  margin: 1rem;
+  text-align: center;
+  color: gray;
+  font-size: 17px;
+}
+
+footer a {
+  color: #8064e9;
+}
